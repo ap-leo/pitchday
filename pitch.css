@@ -355,7 +355,7 @@ header text {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 18px;
+  font-size: 15px;
   width: 100%;
   height: 50%;
   font-family: "zen", sans-serif;
@@ -363,6 +363,7 @@ header text {
 }
 
 .video2 {
+  margin-top: 0%;
   margin-bottom: 2%;
   margin-left: 5%;
   width: 80%;
@@ -468,7 +469,6 @@ header text {
 .logov {
   grid-row: 4;
   grid-column: 2;
-  /* Outras propriedades do elemento aqui */
 }
 
 .texto_parceiros {
@@ -489,11 +489,12 @@ header text {
   display: flex;
   border-radius: 50%;
   align-items: center;
+  margin-bottom: 20%;
 }
 
 .logo img {
   width: 100%;
-  height: 100%;
+  height: 80%;
   border-radius: 50%;
 }
 
@@ -764,11 +765,11 @@ footer {
   }
 
   .fundo3 .texto_p .tp2 {
-    width: 80%;
+    width: 90%;
     height: 100%;
     text-align: right;
     justify-content: end;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .fundo3 .tp1 {
