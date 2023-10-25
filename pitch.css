@@ -225,6 +225,7 @@ header text {
   flex-direction: row;
   background-image: url("./imagens/Fundo2.png");
   background-size: cover;
+  align-itens: center;
 }
 
 .sobre-texto {
