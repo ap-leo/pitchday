@@ -188,6 +188,21 @@ var text = textos[trocando];
 let charIndex = 0;
 const dataElement = document.getElementById("data");
 
+typeText();
+function trocar() {
+    dataElement.innerHTML = '&nbsp;';
+    setTimeout(function () {
+        if (trocando == 2) {
+            trocando = 0;
+        }
+        else {
+            trocando++;
+        }
+        text = textos[trocando];
+        typeText();
+    }, 200);
+}
+
 
 
 function typeText() {
