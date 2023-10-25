@@ -207,15 +207,9 @@ header text {
   font-family: 'codepro', sans-serif;
   font-size: 30px;
   font-weight: 500;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 2px solid #ffffff;
   text-align: right;
 }
 
-.blink-caret {
-  animation: blink-caret 1s step-end infinite;
-}
 
 .sobre {
   display: flex;

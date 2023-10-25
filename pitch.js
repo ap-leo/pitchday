@@ -176,46 +176,25 @@ parceiros.addEventListener("mouseleave", function () {
 
 /* vetor de texto de acordo com o vetor de imagem */
 const textos = [
-    "11 novembro }",
-    "crie }",
-    "compartilhe }",
-]
-let trocando = 0;
+    "11 novembro",
+    "crie",
+    "compartilhe"
+];
 
-var text = textos[trocando];
-let charIndex = 0;
+let trocando = 0;
 const dataElement = document.getElementById("data");
 
-
-
-function typeText() {
-    if (charIndex < text.length) {
-        dataElement.innerHTML += text.charAt(charIndex);
-        charIndex++;
-        setTimeout(typeText, 50); // Intervalo de 50ms entre letras
-    } else {
-        dataElement.classList.add('blink-caret');
-        charIndex = 0; // Reinicie o índice de caracteres para que a função possa ser chamada novamente.
-    }
-}
-
-
-typeText();
 function trocar() {
-    dataElement.innerHTML = '&nbsp;';
-    setTimeout(function () {
         if (trocando == 2) {
             trocando = 0;
-        }
-        else {
+        } else {
             trocando++;
         }
-        text = textos[trocando];
-        typeText();
-    }, 200);
+        dataElement.textContent = textos[trocando]; // Atualize o conteúdo do elemento
+        trocar(); // Chame novamente a função para alternar o texto
 }
-
 setInterval(trocar, 4000);  /* chama-se trocar a cada 4s */
+trocar();
 setInterval(function() {
     trocar2(1);
 }, 10000);
