@@ -220,6 +220,3 @@ const tp1 = document.getElementById("tp1")
 const tp2 = document.getElementById("tp2")
 const tp3 = document.getElementById("tp3")
 const tp4 = document.getElementById("tp4")
-
-
-
