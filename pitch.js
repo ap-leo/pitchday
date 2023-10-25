@@ -188,8 +188,6 @@ var text = textos[trocando];
 let charIndex = 0;
 const dataElement = document.getElementById("data");
 
-typeText();
-
 function trocar() {
     dataElement.innerHTML = '&nbsp;';
     setTimeout(function () {
