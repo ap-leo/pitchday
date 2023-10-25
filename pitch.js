@@ -202,20 +202,7 @@ function typeText() {
 }
 
 
-typeText();
-function trocar() {
-    dataElement.innerHTML = '&nbsp;';
-    setTimeout(function () {
-        if (trocando == 2) {
-            trocando = 0;
-        }
-        else {
-            trocando++;
-        }
-        text = textos[trocando];
-        typeText();
-    }, 200);
-}
+let typingInterval1; 
 
 function startTyping() {
     typingInterval1 = setInterval(trocar, 4000);
@@ -229,11 +216,17 @@ function stopTyping() {
     clearInterval(typingInterval2);
 }
 
-window.onload = startTyping; // iniciar as funções quando a página carregar
+window.onload = startTyping;
 
-// Detectar quando a janela perde o foco (quando o usuário muda de janela)
+// detectar quando a janela perde o foco (quando o usuário muda de janela).
 window.addEventListener('blur', function () {
-    stopTyping(); // parar as funções quando a janela perde o foco
+    stopTyping(); 
 });
+
+// detectar quando a janela recupera o foco.
+window.addEventListener('focus', function () {
+    startTyping(); // retomar as funções quando a janela recupera o foco.
+});
+
 
 
