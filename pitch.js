@@ -45,6 +45,8 @@ barras.addEventListener("mouseleave", function () {         /* funcao caso apert
     });
 });
 
+
+
 const entreset = document.getElementById("entreset")
 const setadir = document.getElementById("setdir")
 const setaesq = document.getElementById("setesq")
@@ -216,7 +218,9 @@ function trocar() {
 }
 
 setInterval(trocar, 4000);  /* chama-se trocar a cada 4s */
+
+
 setInterval(function() {
     trocar2(1);
-}, 10000);
+}, 2000);
 
