@@ -110,8 +110,6 @@ function isMobileDevice() {
 }
 
 if (!isMobileDevice()) {
-    console.log('Está sendo executado em um dispositivo móvel.');
-    /* botoes recebem transparecia50 */
     sobre.classList.add("transparencia50");
     participe.classList.add("transparencia50");
     local.classList.add("transparencia50");
