@@ -222,11 +222,4 @@ const tp3 = document.getElementById("tp3")
 const tp4 = document.getElementById("tp4")
 
 
-var inicio = 0;
-if (inicio == 0) {
-    tp4.style.display = "none"
-    inicio = 1
-    var u2 = document.getElementById("u2")
-    u2.style.display = "none"
-}
 
