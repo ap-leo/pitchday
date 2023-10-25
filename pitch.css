@@ -200,6 +200,7 @@ header text {
   background-position: 10% 30%;
   background-clip: text;
   -webkit-background-clip: text;
+  text-align: center;
 
 }
 
