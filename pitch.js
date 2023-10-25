@@ -53,6 +53,7 @@ const imagens2 = [
     "/imagens/pitch.png",
     "/imagens/startupexperience.png",
     "/imagens/bode2.png",
+    "/imagens/cptv.svg",
     "/imagens/instaufpr.png",
     "/imagens/funpar.png"
 ];
@@ -87,6 +88,10 @@ function trocar2(op) {
             texto2b.innerHTML = "A <strong>Cervejaria Bodebrown</strong>, em Curitiba, é um ícone cervejeiro e cultural, oferecendo não apenas <strong>cervejas artesanais de alta qualidade</strong>, mas também noites de música ao vivo em um <strong>espaço acolhedor que destaca talentos locais</strong>. Inclusive no dia do <strong>Pitch Day</strong> com diversas bandas e inúmeras <strong>oportunidades</strong>."
             break;
         case 3:
+            texto2a.innerHTML = "_CPT"
+            texto2b.innerHTML ="Projeto de Extensão da UFPR/NPDEAS destinado a <strong>divulgação da Ciência</strong> com foco em professores e alunos de nível fundamental, médio e profissionalizante. Os alunos de graduação fazem parte de um ambiente de coworking com desenvolvimento de <strong>tecnologias IoT, energias renováveis, mobilidade urbana e ambientais</strong>."
+            break;
+        case 4:
             texto2a.innerHTML = "_Insta-UFPR"
             texto2b.innerHTML = "O <strong>INSTA</strong> (Instituto de Soluções Tecnológicas Aplicadas) da <strong>UFPR</strong> é um centro de excelência que se destaca por oferecer <strong>especializações</strong> de alta <strong>qualidade</strong> e altamente <strong>tecnológicas</strong>. Com uma abordagem inovadora e uma equipe de <strong>renomados professores e pesquisadores</strong>, o INSTA proporciona aos alunos a oportunidade de aprimorar suas habilidades preparando-os para os <strong>desafios do mundo digital</strong> em constante evolução."
             break;
@@ -196,7 +201,6 @@ function typeText() {
 
 
 typeText();
-/* funcao para trocar imagens e texto (vetor) de modo suave */
 function trocar() {
     dataElement.innerHTML = '&nbsp;';
     setTimeout(function () {
@@ -212,9 +216,7 @@ function trocar() {
 }
 
 setInterval(trocar, 4000);  /* chama-se trocar a cada 4s */
+setInterval(function() {
+    trocar2(1);
+}, 10000);
 
-const imagem = document.getElementById("img_signup")
-const tp1 = document.getElementById("tp1")
-const tp2 = document.getElementById("tp2")
-const tp3 = document.getElementById("tp3")
-const tp4 = document.getElementById("tp4")
