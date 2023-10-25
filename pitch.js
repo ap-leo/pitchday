@@ -90,7 +90,7 @@ function trocar2(op) {
             texto2b.innerHTML = "A <strong>Cervejaria Bodebrown</strong>, em Curitiba, é um ícone cervejeiro e cultural, oferecendo não apenas <strong>cervejas artesanais de alta qualidade</strong>, mas também noites de música ao vivo em um <strong>espaço acolhedor que destaca talentos locais</strong>. Inclusive no dia do <strong>Pitch Day</strong> com diversas bandas e inúmeras <strong>oportunidades</strong>."
             break;
         case 3:
-            texto2a.innerHTML = "CPT"
+            texto2a.innerHTML = "Ciência Para Todos"
             texto2b.innerHTML ="Projeto de Extensão da UFPR/NPDEAS destinado a <strong>divulgação da Ciência</strong> com foco em professores e alunos de nível fundamental, médio e profissionalizante. Os alunos de graduação fazem parte de um ambiente de coworking com desenvolvimento de <strong>tecnologias IoT, energias renováveis, mobilidade urbana e ambientais</strong>."
             break;
         case 4:
