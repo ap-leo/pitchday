@@ -202,7 +202,8 @@ function typeText() {
 }
 
 
-let typingInterval1; 
+let typingInterval1;
+let typingInterval2; // Declare a variável typingInterval2 fora das funções para que seja acessível em todo o escopo.
 
 function startTyping() {
     typingInterval1 = setInterval(trocar, 4000);
@@ -218,14 +219,15 @@ function stopTyping() {
 
 window.onload = startTyping;
 
-// detectar quando a janela perde o foco (quando o usuário muda de janela).
+// Detectar quando a janela perde o foco (quando o usuário muda de janela).
 window.addEventListener('blur', function () {
-    stopTyping(); 
+    stopTyping();
 });
 
-// detectar quando a janela recupera o foco.
+// Detectar quando a janela recupera o foco.
 window.addEventListener('focus', function () {
-    startTyping(); // retomar as funções quando a janela recupera o foco.
+    stopTyping(); // Parar os intervalos antes de recriá-los.
+    startTyping(); // Retomar as funções quando a janela recupera o foco.
 });
 
 
