@@ -217,10 +217,23 @@ function trocar() {
     }, 200);
 }
 
-setInterval(trocar, 4000);  /* chama-se trocar a cada 4s */
+function startTyping() {
+    typingInterval1 = setInterval(trocar, 4000);
+    typingInterval2 = setInterval(function() {
+        trocar2(1);
+    }, 20000);
+}
 
+function stopTyping() {
+    clearInterval(typingInterval1);
+    clearInterval(typingInterval2);
+}
 
-setInterval(function() {
-    trocar2(1);
-}, 20000);
+window.onload = startTyping; // iniciar as funções quando a página carregar
+
+// Detectar quando a janela perde o foco (quando o usuário muda de janela)
+window.addEventListener('blur', function () {
+    stopTyping(); // parar as funções quando a janela perde o foco
+});
+
 
