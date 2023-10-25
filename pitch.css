@@ -663,7 +663,7 @@ footer {
   }
 
   .data {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .texto_1 {
@@ -762,6 +762,10 @@ footer {
   .fundo2 .texto_p {
     margin-top: 10%;
     height: 80%;
+  }
+
+  .fundo2 .tp1{
+    font-size: 25px;
   }
 
   .fundo2 .tp2 {
