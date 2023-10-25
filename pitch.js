@@ -78,27 +78,27 @@ function trocar2(op) {
     entreset.src = imagens2[rodar]
     switch (rodar) {
         case 0:
-            texto2a.innerHTML = "_Pitch Day 2023"
+            texto2a.innerHTML = "Pitch Day 2023"
             texto2b.innerHTML = "Evento de extensão focado na <strong>apresentação de trabalhos</strong> desenvolvidos por alunos, técnicos e professores da UFPR com o foco em <strong>inovação</strong>, <strong>empreendedorismo</strong>, <strong>parcerias</strong> e <strong>transferência de tecnologia</strong>.<br><br> O evento é de <strong>graça</strong> e <strong>aberto</strong> para a comunidade!"
             break;
         case 1:
-            texto2a.innerHTML = "_Startup Experience"
+            texto2a.innerHTML = "Startup Experience"
             texto2b.innerHTML = "<strong>Iniciativa Startup Experience</strong> consiste em um <strong>programa de extensão</strong> da Universidade Federal do Paraná, vinculado ao Departamento de Engenharia Elétrica, com o <strong>foco em inovação, empreendedorismo, interdisciplinaridade e tecnologia.</strong>"
             break;
         case 2:
-            texto2a.innerHTML = "_Bodebrown"
+            texto2a.innerHTML = "Bodebrown"
             texto2b.innerHTML = "A <strong>Cervejaria Bodebrown</strong>, em Curitiba, é um ícone cervejeiro e cultural, oferecendo não apenas <strong>cervejas artesanais de alta qualidade</strong>, mas também noites de música ao vivo em um <strong>espaço acolhedor que destaca talentos locais</strong>. Inclusive no dia do <strong>Pitch Day</strong> com diversas bandas e inúmeras <strong>oportunidades</strong>."
             break;
         case 3:
-            texto2a.innerHTML = "_CPT"
+            texto2a.innerHTML = "CPT"
             texto2b.innerHTML ="Projeto de Extensão da UFPR/NPDEAS destinado a <strong>divulgação da Ciência</strong> com foco em professores e alunos de nível fundamental, médio e profissionalizante. Os alunos de graduação fazem parte de um ambiente de coworking com desenvolvimento de <strong>tecnologias IoT, energias renováveis, mobilidade urbana e ambientais</strong>."
             break;
         case 4:
-            texto2a.innerHTML = "_Insta-UFPR"
+            texto2a.innerHTML = "Insta-UFPR"
             texto2b.innerHTML = "O <strong>INSTA</strong> (Instituto de Soluções Tecnológicas Aplicadas) da <strong>UFPR</strong> é um centro de excelência que se destaca por oferecer <strong>especializações</strong> de alta <strong>qualidade</strong> e altamente <strong>tecnológicas</strong>. Com uma abordagem inovadora e uma equipe de <strong>renomados professores e pesquisadores</strong>, o INSTA proporciona aos alunos a oportunidade de aprimorar suas habilidades preparando-os para os <strong>desafios do mundo digital</strong> em constante evolução."
             break;
         default:
-            texto2a.innerHTML = "_FUNPAR"
+            texto2a.innerHTML = "FUNPAR"
             texto2b.innerHTML = "A <strong>FUNPAR</strong> é uma instituição de direito privado, credenciada a <strong>apoiar</strong> a Universidade Federal do Paraná – <strong>UFPR em projetos</strong> de ensino, pesquisa, extensão, desenvolvimento institucional, científico e tecnológico e estímulo à inovação."
     }
 }
