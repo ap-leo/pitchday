@@ -178,9 +178,9 @@ parceiros.addEventListener("mouseleave", function () {
 
 /* vetor de texto de acordo com o vetor de imagem */
 const textos = [
-    "11 novembro",
-    "crie",
-    "compartilhe",
+    "11 Novembro",
+    "Crie",
+    "Compartilhe",
 ]
 let trocando = 0;
 
@@ -222,5 +222,5 @@ setInterval(trocar, 4000);  /* chama-se trocar a cada 4s */
 
 setInterval(function() {
     trocar2(1);
-}, 2000);
+}, 20000);
 
