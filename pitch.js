@@ -67,6 +67,7 @@ function trocar2(op) {
         } else {
             rodar = 0;
         }
+        entreset.src = imagens2[rodar]
     }
     else {
         if (rodar > 0) {
@@ -74,8 +75,8 @@ function trocar2(op) {
         } else {
             rodar = imagens2.length - 1;
         }
+        entreset.src = imagens2[rodar]
     }
-    entreset.src = imagens2[rodar]
     switch (rodar) {
         case 0:
             texto2a.innerHTML = "Pitch Day 2023"
