@@ -186,6 +186,8 @@ header text {
   font-family: 'codepro', sans-serif;
   font-size: 30px;
   font-weight: 500;
+  color: linear-gradient(#091e2a, white);
+
 }
 
 
