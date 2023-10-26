@@ -605,6 +605,33 @@ footer {
     border-color: white;
   }
 }
+@media (min-width: 1920px) {
+  .separar{
+    height: 930px;
+  }
+
+  .sobre{
+    height: 930px;
+  }
+
+  .fundo4{
+    height: 930px;
+  }
+  .parceiros{
+    height: 1800px;
+  }
+
+  footer{
+    height: 400px;
+  }
+  .footer1{
+   height: 50%; 
+  }
+  .footer2 {
+    height: 40%;
+   
+  }
+}
 
 @media (max-width: 1000px) {
 
