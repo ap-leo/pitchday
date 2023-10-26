@@ -52,12 +52,12 @@ const setadir = document.getElementById("setdir")
 const setaesq = document.getElementById("setesq")
 var rodar = 0;
 const imagens2 = [
-    "/imagens/pitch.png",
-    "/imagens/startupexperience.png",
-    "/imagens/bode2.png",
-    "/imagens/cptv.svg",
-    "/imagens/instaufpr.png",
-    "/imagens/funpar.png"
+    "https://cpttecnologia.s3.sa-east-1.amazonaws.com/imagens/pitch.png",
+    "https://cpttecnologia.s3.sa-east-1.amazonaws.com/imagens/startupexperience.png",
+    "https://cpttecnologia.s3.sa-east-1.amazonaws.com/imagens/bode2.png",
+    "https://cpttecnologia.s3.sa-east-1.amazonaws.com/imagens/cptv.svg",
+    "https://cpttecnologia.s3.sa-east-1.amazonaws.com/imagens/instaufpr.png",
+    "https://cpttecnologia.s3.sa-east-1.amazonaws.com/imagens/funpar.png"
 ];
 
 function trocar2(op) {
