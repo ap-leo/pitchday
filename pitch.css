@@ -225,8 +225,6 @@ header text {
   flex-direction: row;
   background-image: url("./imagens/Fundo2.png");
   background-size: cover;
-  align-itens: center;
-  justify-content: center;
 }
 
 .sobre-texto {
@@ -323,13 +321,16 @@ header text {
   background-position: right;
 }
 
-.fundo2,
-.fundo3 {
+.fundo2{
   display: flex;
   height: 790px;
   width: 100%;
 }
-
+.fundo3{
+  display: flex;
+  height: 820px;
+  width: 100%;
+}
 .videofundo {
   position: absolute;
   top: 0;
@@ -410,13 +411,13 @@ header text {
 
 .fundo3 .texto_p {
   display: flex;
-  justify-items: end;
   flex-direction: column;
   color: #ffffff;
-  height: 70%;
+  height: 100%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 10%;
+  margin-top: 2%;
+  margin-bottom: 5%;
   width: 90%;
   align-items: end;
 }
@@ -428,10 +429,12 @@ header text {
   display: flex;
   flex-direction: row;
   font-size: 20px;
-  width: 50%;
   height: 50%;
-  font-family: "zen", sans-serif;
+  font-family: "code", sans-serif;
   line-height: 2;
+}
+.fundo3 .tp2 strong{
+  font-family: "zen", sans-serif;
 }
 
 .container {
@@ -462,6 +465,9 @@ header text {
   font-weight: 700;
   margin-bottom: 5%;
   color: white;
+}
+.fundo3 .tp1{
+  margin-bottom: 2%;
 }
 
 .fundo2 .tp2 {
@@ -665,7 +671,7 @@ footer {
   }
 
   .data {
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .texto_1 {
@@ -766,10 +772,6 @@ footer {
     height: 80%;
   }
 
-  .fundo2 .tp1{
-    font-size: 30px;
-  }
-
   .fundo2 .tp2 {
     margin-bottom: 0%;
     height: 50%;
@@ -789,7 +791,7 @@ footer {
     height: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 20%;
+    margin-top: 2%;
     width: 90%;
     align-items: end;
   }
@@ -798,8 +800,8 @@ footer {
     width: 80%;
     height: 100%;
     text-align: right;
-    justify-content: end;
     font-size: 18px;
+    margin-bottom: 5%;
   }
 
   .fundo3 .tp1 {

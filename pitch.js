@@ -52,12 +52,12 @@ const setadir = document.getElementById("setdir")
 const setaesq = document.getElementById("setesq")
 var rodar = 0;
 const imagens2 = [
-    "https://cpttecnologia.s3.sa-east-1.amazonaws.com/imagens/pitch.png",
-    "https://cpttecnologia.s3.sa-east-1.amazonaws.com/imagens/startupexperience.png",
-    "https://cpttecnologia.s3.sa-east-1.amazonaws.com/imagens/bode2.png",
-    "https://cpttecnologia.s3.sa-east-1.amazonaws.com/imagens/cptv.svg",
-    "https://cpttecnologia.s3.sa-east-1.amazonaws.com/imagens/instaufpr.png",
-    "https://cpttecnologia.s3.sa-east-1.amazonaws.com/imagens/funpar.png"
+    "/imagens/pitch.png",
+    "/imagens/startupexperience.png",
+    "/imagens/bode2.png",
+    "/imagens/cptv.svg",
+    "/imagens/instaufpr.png",
+    "/imagens/funpar.png"
 ];
 
 function trocar2(op) {
@@ -67,7 +67,6 @@ function trocar2(op) {
         } else {
             rodar = 0;
         }
-        entreset.src = imagens2[rodar]
     }
     else {
         if (rodar > 0) {
@@ -75,8 +74,8 @@ function trocar2(op) {
         } else {
             rodar = imagens2.length - 1;
         }
-        entreset.src = imagens2[rodar]
     }
+    entreset.src = imagens2[rodar]
     switch (rodar) {
         case 0:
             texto2a.innerHTML = "Pitch Day 2023"
@@ -91,7 +90,7 @@ function trocar2(op) {
             texto2b.innerHTML = "A <strong>Cervejaria Bodebrown</strong>, em Curitiba, é um ícone cervejeiro e cultural, oferecendo não apenas <strong>cervejas artesanais de alta qualidade</strong>, mas também noites de música ao vivo em um <strong>espaço acolhedor que destaca talentos locais</strong>. Inclusive no dia do <strong>Pitch Day</strong> com diversas bandas e inúmeras <strong>oportunidades</strong>."
             break;
         case 3:
-            texto2a.innerHTML = "Ciência Para Todos"
+            texto2a.innerHTML = "CPT"
             texto2b.innerHTML ="Projeto de Extensão da UFPR/NPDEAS destinado a <strong>divulgação da Ciência</strong> com foco em professores e alunos de nível fundamental, médio e profissionalizante. Os alunos de graduação fazem parte de um ambiente de coworking com desenvolvimento de <strong>tecnologias IoT, energias renováveis, mobilidade urbana e ambientais</strong>."
             break;
         case 4:
@@ -189,19 +188,19 @@ var text = textos[trocando];
 let charIndex = 0;
 const dataElement = document.getElementById("data");
 
-function trocar() {
-    dataElement.innerHTML = '&nbsp;';
-    setTimeout(function () {
-        if (trocando == 2) {
-            trocando = 0;
-        }
-        else {
-            trocando++;
-        }
-        text = textos[trocando];
-        typeText();
-    }, 200);
+
+
+function typeText() {
+    if (charIndex < text.length) {
+        dataElement.innerHTML += text.charAt(charIndex);
+        charIndex++;
+        setTimeout(typeText, 50); // Intervalo de 50ms entre letras
+    } else {
+        dataElement.classList.add('blink-caret');
+        charIndex = 0; // Reinicie o índice de caracteres para que a função possa ser chamada novamente.
+    }
 }
+
 
 typeText();
 function trocar() {
@@ -218,46 +217,10 @@ function trocar() {
     }, 200);
 }
 
+setInterval(trocar, 4000);  /* chama-se trocar a cada 4s */
 
 
-function typeText() {
-    if (charIndex < text.length) {
-        dataElement.innerHTML += text.charAt(charIndex);
-        charIndex++;
-        setTimeout(typeText, 50); // Intervalo de 50ms entre letras
-    } else {
-        dataElement.classList.add('blink-caret');
-        charIndex = 0; // Reinicie o índice de caracteres para que a função possa ser chamada novamente.
-    }
-}
-
-
-let typingInterval1; // Declare as variáveis fora das funções para que sejam acessíveis em todo o escopo.
-let typingInterval2;
-
-function startTyping() {
-    typingInterval1 = setInterval(trocar, 4000);
-    typingInterval2 = setInterval(function() {
-        trocar2(1);
-    }, 20000);
-}
-
-function stopTyping() {
-    clearInterval(typingInterval1);
-    clearInterval(typingInterval2);
-}
-
-window.onload = startTyping; // Iniciar as funções quando a página carregar.
-
-// Detectar quando a janela perde o foco (quando o usuário muda de janela).
-window.addEventListener('blur', function () {
-    stopTyping(); // Parar as funções quando a janela perde o foco.
-});
-
-// Detectar quando a janela recupera o foco.
-window.addEventListener('focus', function () {
-    startTyping(); // Retomar as funções quando a janela recupera o foco.
-});
-
-
+setInterval(function() {
+    trocar2(1);
+}, 20000);
 
