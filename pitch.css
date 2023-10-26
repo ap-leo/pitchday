@@ -379,6 +379,7 @@ header text {
   height: 100%;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 5%;
 }
 
 .fundo4 .tp2 {
@@ -401,12 +402,6 @@ header text {
 
 .video2 video {
   width: 100%;
-}
-
-
-.fundo4 .texto_p {
-  margin-top: 5%;
-  flex-direction: row;
 }
 
 .fundo3 .texto_p {
@@ -613,13 +608,32 @@ footer {
   .sobre{
     height: 930px;
   }
-
-  .fundo4{
+  .fundos{
+    height: 1860px;
+  }
+  .fundo2{
     height: 930px;
+  }
+  .fundo3{
+    height: 930px;
+  }
+  .fundo3 .texto_p {
+    margin-top: 6%;
   }
   .parceiros{
     height: 1800px;
   }
+  .parceiros_g {
+    width: 65%;
+    height: 10%;
+    margin-bottom: 30%;
+  }
+  .fundo4{
+    height: 930px;
+  }
+.fundo4 .texto_p{
+  margin-bottom: 20%;
+}
 
   footer{
     height: 400px;
