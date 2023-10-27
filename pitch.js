@@ -79,7 +79,7 @@ function trocar2(op) {
     switch (rodar) {
         case 0:
             texto2a.innerHTML = "Pitch Day UFPR"
-            texto2b.innerHTML = "Evento de extensão focado na <strong>apresentação de trabalhos</strong> desenvolvidos por alunos, técnicos e professores da UFPR com o foco em <strong>inovação</strong>, <strong>empreendedorismo</strong>, <strong>parcerias</strong> e <strong>transferência de tecnologia</strong>.<br><br> O evento é de <strong>graça</strong> e <strong>aberto</strong> para a comunidade!"
+            texto2b.innerHTML = "Evento de extensão focado na <strong>apresentação de trabalhos</strong> desenvolvidos por alunos, técnicos e professores da UFPR com o foco em <strong>inovação</strong>, <strong>empreendedorismo</strong>, <strong>parcerias</strong> e <strong>transferência de tecnologia</strong>.<br><br> O evento é <strong>gratuito</strong> e <strong>aberto</strong> para a comunidade!"
             break;
         case 1:
             texto2a.innerHTML = "Startup Experience"
