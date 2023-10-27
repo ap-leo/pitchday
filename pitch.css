@@ -159,7 +159,7 @@ header text {
 .separar {
   display: flex;
   flex-direction: row;
-  height: 750px;
+  height: 700px;
   width: 100%;
 }
 
@@ -221,7 +221,7 @@ header text {
 .sobre {
   display: flex;
   width: 100%;
-  height: 790px;
+  height: 700px;
   flex-direction: row;
   background-image: url("./imagens/Fundo2.png");
   background-size: cover;
@@ -290,7 +290,7 @@ header text {
 
 .car img {
   width: 75%;
-  height: 40%;
+  height: 45%;
   max-height: 250px;
 }
 
