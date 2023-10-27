@@ -159,7 +159,7 @@ header text {
 .separar {
   display: flex;
   flex-direction: row;
-  height: 700px;
+  height: 750px;
   width: 100%;
 }
 
@@ -221,7 +221,7 @@ header text {
 .sobre {
   display: flex;
   width: 100%;
-  height: 700px;
+  height: 790px;
   flex-direction: row;
   background-image: url("./imagens/Fundo2.png");
   background-size: cover;
@@ -290,7 +290,7 @@ header text {
 
 .car img {
   width: 75%;
-  height: 45%;
+  height: 40%;
   max-height: 250px;
 }
 
@@ -379,7 +379,6 @@ header text {
   height: 100%;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 5%;
 }
 
 .fundo4 .tp2 {
@@ -402,6 +401,12 @@ header text {
 
 .video2 video {
   width: 100%;
+}
+
+
+.fundo4 .texto_p {
+  margin-top: 5%;
+  flex-direction: row;
 }
 
 .fundo3 .texto_p {
@@ -598,52 +603,6 @@ footer {
 
   50% {
     border-color: white;
-  }
-}
-@media (min-width: 1920px) {
-  .separar{
-    height: 930px;
-  }
-
-  .sobre{
-    height: 930px;
-  }
-  .fundos{
-    height: 1860px;
-  }
-  .fundo2{
-    height: 930px;
-  }
-  .fundo3{
-    height: 930px;
-  }
-  .fundo3 .texto_p {
-    margin-top: 6%;
-  }
-  .parceiros{
-    height: 1800px;
-  }
-  .parceiros_g {
-    width: 65%;
-    height: 10%;
-    margin-bottom: 30%;
-  }
-  .fundo4{
-    height: 930px;
-  }
-.fundo4 .texto_p{
-  margin-bottom: 20%;
-}
-
-  footer{
-    height: 400px;
-  }
-  .footer1{
-   height: 50%; 
-  }
-  .footer2 {
-    height: 40%;
-   
   }
 }
 
