@@ -78,8 +78,8 @@ function trocar2(op) {
     entreset.src = imagens2[rodar]
     switch (rodar) {
         case 0:
-            texto2a.innerHTML = "Pitch Day 2023"
-            texto2b.innerHTML = "Evento de extensão focado na <strong>apresentação de trabalhos</strong> desenvolvidos por alunos, técnicos e professores da UFPR com o foco em <strong>inovação</strong>, <strong>empreendedorismo</strong>, <strong>parcerias</strong> e <strong>transferência de tecnologia</strong>.<br><br> O evento é de <strong>graça</strong> e <strong>aberto</strong> para a comunidade!"
+            texto2a.innerHTML = "Pitch Day UFPR"
+            texto2b.innerHTML = "Evento de extensão focado na <strong>apresentação de trabalhos</strong> desenvolvidos por alunos, técnicos e professores da UFPR com o foco em <strong>inovação</strong>, <strong>empreendedorismo</strong>, <strong>parcerias</strong> e <strong>transferência de tecnologia</strong>.<br><br> O evento é <strong>gratuito</strong> e <strong>aberto</strong> para a comunidade!"
             break;
         case 1:
             texto2a.innerHTML = "Startup Experience"
@@ -90,7 +90,7 @@ function trocar2(op) {
             texto2b.innerHTML = "A <strong>Cervejaria Bodebrown</strong>, em Curitiba, é um ícone cervejeiro e cultural, oferecendo não apenas <strong>cervejas artesanais de alta qualidade</strong>, mas também noites de música ao vivo em um <strong>espaço acolhedor que destaca talentos locais</strong>. Inclusive no dia do <strong>Pitch Day</strong> com diversas bandas e inúmeras <strong>oportunidades</strong>."
             break;
         case 3:
-            texto2a.innerHTML = "CPT"
+            texto2a.innerHTML = "Ciência Para Todos"
             texto2b.innerHTML ="Projeto de Extensão da UFPR/NPDEAS destinado a <strong>divulgação da Ciência</strong> com foco em professores e alunos de nível fundamental, médio e profissionalizante. Os alunos de graduação fazem parte de um ambiente de coworking com desenvolvimento de <strong>tecnologias IoT, energias renováveis, mobilidade urbana e ambientais</strong>."
             break;
         case 4:
