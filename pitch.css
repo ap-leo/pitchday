@@ -638,7 +638,7 @@ footer {
     margin-bottom: 30%;
   }
   .fundo4{
-    height: 930px;
+    height: 1000px;
   }
 .fundo4 .texto_p{
   margin-bottom: 20%;
@@ -693,10 +693,12 @@ footer {
     height: 100%;
   }
   .video2 {
+    margin-top: 10%;
     width: 70%;
   }
   .main-carousel{
-    margin-top: 10%;
+    background-color: #000000;
+    padding-top: 25%;
   }
 
   .topo {
@@ -822,6 +824,7 @@ footer {
   .fundo4 .tp2 {
     flex-direction: column;
     margin-bottom: 25%;
+    font-size: 15px;
   }
 
   .participe {
