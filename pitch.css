@@ -716,6 +716,10 @@ footer {
 
   }
 
+  .flickity-page-dots{
+    display: flex;
+    justify-content: center;
+  }
   .barras {
     display: flex;
     width: 20%;
