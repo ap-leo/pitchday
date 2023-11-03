@@ -100,13 +100,15 @@ a {
   display: none;
 }
 
-.main-carousel{
+.main-carousel {
   height: 300px;
 }
-.carousel-cell{
+
+.carousel-cell {
   height: 300px;
 }
-.carousel-cell img{
+
+.carousel-cell img {
   height: 100%;
 }
 
@@ -330,16 +332,18 @@ header text {
   background-position: right;
 }
 
-.fundo2{
+.fundo2 {
   display: flex;
   height: 790px;
   width: 100%;
 }
-.fundo3{
+
+.fundo3 {
   display: flex;
   height: 820px;
   width: 100%;
 }
+
 .videofundo {
   position: absolute;
   top: 0;
@@ -437,7 +441,8 @@ header text {
   font-family: "code", sans-serif;
   line-height: 2;
 }
-.fundo3 .tp2 strong{
+
+.fundo3 .tp2 strong {
   font-family: "zen", sans-serif;
 }
 
@@ -470,7 +475,8 @@ header text {
   margin-bottom: 5%;
   color: white;
 }
-.fundo3 .tp1{
+
+.fundo3 .tp1 {
   margin-bottom: 2%;
 }
 
@@ -507,8 +513,8 @@ header text {
 .logov {
   grid-row: 4;
   grid-column: 2;
-  /* Outras propriedades do elemento aqui */
 }
+
 
 .texto_parceiros {
   display: flex;
@@ -609,50 +615,61 @@ footer {
     border-color: white;
   }
 }
+
 @media (min-width: 1920px) {
-  .separar{
+  .separar {
     height: 930px;
   }
 
-  .sobre{
+  .sobre {
     height: 930px;
   }
-  .fundos{
+
+  .fundos {
     height: 1860px;
   }
-  .fundo2{
+
+  .fundo2 {
     height: 930px;
   }
-  .fundo3{
+
+  .fundo3 {
     height: 930px;
   }
+
   .fundo3 .texto_p {
     margin-top: 6%;
   }
-  .parceiros{
+
+  .parceiros {
     height: 1800px;
   }
+
   .parceiros_g {
     width: 65%;
     height: 10%;
     margin-bottom: 30%;
   }
-  .fundo4{
+
+  .fundo4 {
     height: 1000px;
   }
-.fundo4 .texto_p{
-  margin-bottom: 20%;
-}
 
-  footer{
+  .fundo4 .texto_p {
+    margin-bottom: 20%;
+  }
+
+  footer {
     height: 400px;
   }
-  .footer1{
-   height: 50%; 
+
+  .footer1 {
+    height: 50%;
   }
+
   .footer2 {
     height: 40%;
-   
+
   }
 }
 
@@ -688,15 +705,18 @@ footer {
   .flickity-button {
     display: none;
   }
-  .carousel-cell img{
+
+  .carousel-cell img {
     width: 100%;
     height: 100%;
   }
+
   .video2 {
     margin-top: 10%;
     width: 70%;
   }
-  .main-carousel{
+
+  .main-carousel {
     background-color: #000000;
     padding-top: 25%;
   }
@@ -716,10 +736,6 @@ footer {
 
   }
 
-  .flickity-page-dots{
-    display: flex;
-    justify-content: center;
-  }
   .barras {
     display: flex;
     width: 20%;
@@ -857,7 +873,7 @@ footer {
     justify-content: center;
   }
 
-  .fundo3{
+  .fundo3 {
     height: 900px;
   }
 
@@ -891,10 +907,11 @@ footer {
     margin-bottom: 10%;
   }
 
-.parceiros{
-  height: 900px;
-  justify-content: center;
-}
+  .parceiros {
+    height: 900px;
+    justify-content: center;
+  }
+
   .texto_parceiros {
     margin-top: 0%;
     margin-bottom: 5%;
@@ -914,12 +931,19 @@ footer {
     min-width: 90px;
   }
 
+  .logo2 {
+    display: flex;
+    height: 80%;
+    width: 40%;
+  }
+
   footer {
     height: 200px;
     justify-content: start;
     flex-direction: column;
   }
-  .footer1{
+
+  .footer1 {
     height: 30%;
     width: 100%;
     margin-bottom: 5%;
