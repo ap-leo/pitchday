@@ -4,69 +4,69 @@
 
 @font-face {
   font-family: 'lastica';
-  src: url('/font/FontsFree-Net-Lastica.ttf') format('truetype');
+  src: url('font/FontsFree-Net-Lastica.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'montbold';
-  src: url('/font/Montserrat-Bold.otf') format('truetype');
+  src: url('font/Montserrat-Bold.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'montlight';
-  src: url('/font/Montserrat-Light.otf') format('truetype');
+  src: url('font/Montserrat-Light.otf') format('truetype');
   font-style: normal;
 }
 
 @font-face {
   font-family: 'montmedius';
-  src: url('/font/Montserrat-Medium.otf') format('truetype');
+  src: url('font/Montserrat-Medium.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'wave';
-  src: url('/font/wave.ttf') format('truetype');
+  src: url('font/wave.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'tt';
-  src: url('/font/TT\ Interphases\ Pro\ Mono\ Trial\ Bold.ttf') format('truetype');
+  src: url('font/TT\ Interphases\ Pro\ Mono\ Trial\ Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'anonymous';
-  src: url('/font/anonymous-pro.regular.ttf') format('truetype');
+  src: url('font/anonymous-pro.regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'code';
-  src: url('/font/SourceCodePro-Regular.ttf') format('truetype');
+  src: url('font/SourceCodePro-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'zen';
-  src: url('/font/ZenDots-Regular.ttf') format('truetype');
+  src: url('font/ZenDots-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'codepro';
-  src: url('/font/SourceCodePro-VariableFont_wght.ttf') format('truetype');
+  src: url('font/SourceCodePro-VariableFont_wght.ttf') format('truetype');
   font-weight: lighter;
   font-style: normal;
 }
@@ -206,7 +206,7 @@ header text {
   margin-top: 5%;
   margin-bottom: 5%;
   color: transparent;
-  background-image: url("./imagens/Fundo2.png");
+  background-image: url("/imagens/Fundo2.png");
   background-size: cover;
   background-position: 10% 30%;
   background-clip: text;
@@ -234,7 +234,7 @@ header text {
   width: 100%;
   height: 700px;
   flex-direction: row;
-  background-image: url("./imagens/Fundo2.png");
+  background-image: url("/imagens/Fundo2.png");
   background-size: cover;
 }
 
@@ -324,7 +324,7 @@ header text {
 }
 
 .fundos {
-  background-image: url("/imagens/fundos.png");
+  background-image: url("imagens/fundos.png");
   width: 100%;
   height: 1580px;
   background-repeat: no-repeat;
