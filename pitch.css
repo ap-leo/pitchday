@@ -206,7 +206,7 @@ header text {
   margin-top: 5%;
   margin-bottom: 5%;
   color: transparent;
-  background-image: url("/imagens/Fundo2.png");
+  background-image: url("imagens/Fundo2.png");
   background-size: cover;
   background-position: 10% 30%;
   background-clip: text;
