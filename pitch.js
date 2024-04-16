@@ -52,12 +52,12 @@ const setadir = document.getElementById("setdir")
 const setaesq = document.getElementById("setesq")
 var rodar = 0;
 const imagens2 = [
-    "/imagens/pitch.png",
-    "/imagens/startupexperience.png",
-    "/imagens/bode2.png",
-    "/imagens/cptv.svg",
-    "/imagens/instaufpr.png",
-    "/imagens/funpar.png"
+    "imagens/pitch.png",
+    "imagens/startupexperience.png",
+    "imagens/bode2.png",
+    "imagens/cptv.svg",
+    "imagens/instaufpr.png",
+    "imagens/funpar.png"
 ];
 
 function trocar2(op) {
